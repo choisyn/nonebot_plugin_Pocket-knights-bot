@@ -6,5 +6,9 @@
 </div>
 # Pocket-knights---bot
 
+> 这不是一个单独的插件，而是多功能集成的包
+
 Pocket knights/幻想英雄 机器人
+
+
 群内查询游戏相关信息(支持官方bot)
