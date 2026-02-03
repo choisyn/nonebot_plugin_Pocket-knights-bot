@@ -8,7 +8,7 @@
 
 > 这不是一个单独的插件，而是多功能集成的包
 
->放入plugins中
+>放入plugins文件夹中
 >
 Pocket knights/幻想英雄 机器人
 
