@@ -13,7 +13,7 @@ import base64
 
 # if __name__ == '__main__':
     # 运行服务器，host='0.0.0.0'使得服务器对外部可访问
-    # app.run(host='43.142.4.39', port=8543)
+    # app.run(host='127.0.0.1', port=8543)
 
 async def db_button(s,w,h,ts,am):
   str1=s
@@ -27,7 +27,7 @@ async def db_button(s,w,h,ts,am):
   endstr="背包剩余:"+str(am)+"\r结果仅供娱乐！"
   data={
         "markdown":{
-            "custom_template_id": "102057269_1703253787",
+            "custom_template_id": "custom_template_id",
             "params":[
                 {
                     "key":"imgsize",
@@ -109,4 +109,5 @@ async def db_button(s,w,h,ts,am):
   json_str = json.dumps(data)
   data_bytes = json_str.encode('utf-8')
   encoded_data = base64.b64encode(data_bytes).decode('utf-8')
+
   return encoded_data
